@@ -1,14 +1,15 @@
-cmd_/home/pi/mt7601u/src/os/linux/mt7601Uap.mod.o := gcc -Wp,-MD,/home/pi/mt7601u/src/os/linux/.mt7601Uap.mod.o.d  -nostdinc -isystem /usr/lib/gcc/arm-linux-gnueabihf/4.9/include -I./arch/arm/include -Iarch/arm/include/generated/uapi -Iarch/arm/include/generated  -Iinclude -I./arch/arm/include/uapi -Iarch/arm/include/generated/uapi -I./include/uapi -Iinclude/generated/uapi -include ./include/linux/kconfig.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-bcm2709/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -std=gnu89 -fno-dwarf2-cfi-asm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -fno-ipa-sra -mabi=aapcs-linux -mno-thumb-interwork -mfpu=vfp -funwind-tables -marm -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -fno-delete-null-pointer-checks -Wno-maybe-uninitialized -O2 --param=allow-store-data-races=0 -Wframe-larger-than=1024 -fno-stack-protector -Wno-unused-but-set-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-var-tracking-assignments -pg -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -Werror=implicit-int -Werror=strict-prototypes -Werror=date-time -DCC_HAVE_ASM_GOTO -DAGGREGATION_SUPPORT -DPIGGYBACK_SUPPORT -DWMM_SUPPORT -DLINUX -Wall -Wstrict-prototypes -Wno-trigraphs -DSYSTEM_LOG_SUPPORT -DRT28xx_MODE=AP -DCHIPSET=7601U -DRESOURCE_PRE_ALLOC -I/home/pi/mt7601u/src/include -DCONFIG_AP_SUPPORT -DUAPSD_SUPPORT -DMBSS_SUPPORT -DIAPP_SUPPORT -DDBG -DDOT1X_SUPPORT -DAP_SCAN_SUPPORT -DSCAN_SUPPORT -DHOSTAPD_SUPPORT -DRALINK_ATE -DCONFIG_RT2880_ATE_CMD_NEW -I/home/pi/mt7601u/src/ate/include -DRALINK_QA -DWSC_AP_SUPPORT -DWSC_V2_SUPPORT -DDOT11_N_SUPPORT -DDOT11N_DRAFT3 -DSTATS_COUNT_SUPPORT -DOS_ABL_SUPPORT -DOS_ABL_FUNC_SUPPORT -DOS_ABL_OS_PCI_SUPPORT -DOS_ABL_OS_USB_SUPPORT -DOS_ABL_OS_AP_SUPPORT -DOS_ABL_OS_STA_SUPPORT -DEXPORT_SYMTAB -DMT7601U -DMT7601 -DRLT_MAC -DRLT_RF -DRTMP_MAC_USB -DRTMP_USB_SUPPORT -DRTMP_TIMER_TASK_SUPPORT -DRX_DMA_SCATTER -DVCORECAL_SUPPORT -DRTMP_EFUSE_SUPPORT -DNEW_MBSSID_MODE -DRTMP_INTERNAL_TX_ALC -DCONFIG_ANDES_SUPPORT -DDPD_CALIBRATION_SUPPORT -DCONFIG_RX_CSO_SUPPORT  -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(mt7601Uap.mod)"  -D"KBUILD_MODNAME=KBUILD_STR(mt7601Uap)" -DMODULE  -c -o /home/pi/mt7601u/src/os/linux/mt7601Uap.mod.o /home/pi/mt7601u/src/os/linux/mt7601Uap.mod.c
+cmd_/home/odroid/repos/MT7601u/src/os/linux/mt7601Uap.mod.o := gcc -Wp,-MD,/home/odroid/repos/MT7601u/src/os/linux/.mt7601Uap.mod.o.d  -nostdinc -isystem /usr/lib/gcc/arm-linux-gnueabihf/5/include -I./arch/arm/include -I./arch/arm/include/generated/uapi -I./arch/arm/include/generated  -I./include -I./arch/arm/include/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/kconfig.h -D__KERNEL__ -mlittle-endian -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -std=gnu89 -fno-PIE -fno-dwarf2-cfi-asm -fno-ipa-sra -mabi=aapcs-linux -mno-thumb-interwork -mfpu=vfp -funwind-tables -marm -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -fno-delete-null-pointer-checks -O2 --param=allow-store-data-races=0 -DCC_HAVE_ASM_GOTO -Wframe-larger-than=1024 -fno-stack-protector -Wno-unused-but-set-variable -fomit-frame-pointer -fno-var-tracking-assignments -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -Werror=implicit-int -Werror=strict-prototypes -Werror=date-time -Werror=incompatible-pointer-types -DAGGREGATION_SUPPORT -DPIGGYBACK_SUPPORT -DWMM_SUPPORT -DLINUX -Wall -Wstrict-prototypes -Wno-trigraphs -DSYSTEM_LOG_SUPPORT -DRT28xx_MODE=AP -DCHIPSET=7601U -DRESOURCE_PRE_ALLOC -I/home/odroid/repos/MT7601u/src/include -DCONFIG_AP_SUPPORT -DUAPSD_SUPPORT -DMBSS_SUPPORT -DIAPP_SUPPORT -DDBG -DDOT1X_SUPPORT -DAP_SCAN_SUPPORT -DSCAN_SUPPORT -DHOSTAPD_SUPPORT -DRALINK_ATE -DCONFIG_RT2880_ATE_CMD_NEW -I/home/odroid/repos/MT7601u/src/ate/include -DRALINK_QA -DWSC_AP_SUPPORT -DWSC_V2_SUPPORT -DDOT11_N_SUPPORT -DDOT11N_DRAFT3 -DSTATS_COUNT_SUPPORT -DOS_ABL_SUPPORT -DOS_ABL_FUNC_SUPPORT -DOS_ABL_OS_PCI_SUPPORT -DOS_ABL_OS_USB_SUPPORT -DOS_ABL_OS_AP_SUPPORT -DOS_ABL_OS_STA_SUPPORT -DEXPORT_SYMTAB -DMT7601U -DMT7601 -DRLT_MAC -DRLT_RF -DRTMP_MAC_USB -DRTMP_USB_SUPPORT -DRTMP_TIMER_TASK_SUPPORT -DRX_DMA_SCATTER -DVCORECAL_SUPPORT -DRTMP_EFUSE_SUPPORT -DNEW_MBSSID_MODE -DRTMP_INTERNAL_TX_ALC -DCONFIG_ANDES_SUPPORT -DDPD_CALIBRATION_SUPPORT -DCONFIG_RX_CSO_SUPPORT  -DKBUILD_BASENAME='"mt7601Uap.mod"'  -DKBUILD_MODNAME='"mt7601Uap"' -DMODULE  -c -o /home/odroid/repos/MT7601u/src/os/linux/mt7601Uap.mod.o /home/odroid/repos/MT7601u/src/os/linux/mt7601Uap.mod.c
 
-source_/home/pi/mt7601u/src/os/linux/mt7601Uap.mod.o := /home/pi/mt7601u/src/os/linux/mt7601Uap.mod.c
+source_/home/odroid/repos/MT7601u/src/os/linux/mt7601Uap.mod.o := /home/odroid/repos/MT7601u/src/os/linux/mt7601Uap.mod.c
 
-deps_/home/pi/mt7601u/src/os/linux/mt7601Uap.mod.o := \
+deps_/home/odroid/repos/MT7601u/src/os/linux/mt7601Uap.mod.o := \
   include/linux/module.h \
     $(wildcard include/config/modules.h) \
     $(wildcard include/config/sysfs.h) \
+    $(wildcard include/config/modules/tree/lookup.h) \
+    $(wildcard include/config/livepatch.h) \
     $(wildcard include/config/unused/symbols.h) \
     $(wildcard include/config/module/sig.h) \
-    $(wildcard include/config/modules/tree/lookup.h) \
     $(wildcard include/config/generic/bug.h) \
     $(wildcard include/config/kallsyms.h) \
     $(wildcard include/config/smp.h) \
@@ -16,7 +17,6 @@ deps_/home/pi/mt7601u/src/os/linux/mt7601Uap.mod.o := \
     $(wildcard include/config/tracing.h) \
     $(wildcard include/config/event/tracing.h) \
     $(wildcard include/config/ftrace/mcount/record.h) \
-    $(wildcard include/config/livepatch.h) \
     $(wildcard include/config/module/unload.h) \
     $(wildcard include/config/constructors.h) \
     $(wildcard include/config/debug/set/module/ronx.h) \
@@ -36,7 +36,7 @@ deps_/home/pi/mt7601u/src/os/linux/mt7601Uap.mod.o := \
   arch/arm/include/generated/asm/bitsperlong.h \
   include/asm-generic/bitsperlong.h \
   include/uapi/asm-generic/bitsperlong.h \
-  include/uapi/linux/posix_types.h \
+  include/linux/posix_types.h \
   include/linux/stddef.h \
   include/uapi/linux/stddef.h \
   include/linux/compiler.h \
@@ -52,23 +52,25 @@ deps_/home/pi/mt7601u/src/os/linux/mt7601Uap.mod.o := \
     $(wildcard include/config/optimize/inlining.h) \
     $(wildcard include/config/gcov/kernel.h) \
     $(wildcard include/config/arch/use/builtin/bswap.h) \
-  arch/arm/include/uapi/asm/posix_types.h \
-  include/uapi/asm-generic/posix_types.h \
+  include/asm/posix_types.h \
+  include/asm-generic/posix_types.h \
   include/linux/poison.h \
     $(wildcard include/config/illegal/pointer/value.h) \
-  include/uapi/linux/const.h \
+    $(wildcard include/config/page/poisoning/zero.h) \
+  include/linux/const.h \
   include/linux/kernel.h \
     $(wildcard include/config/preempt/voluntary.h) \
     $(wildcard include/config/debug/atomic/sleep.h) \
     $(wildcard include/config/mmu.h) \
     $(wildcard include/config/prove/locking.h) \
     $(wildcard include/config/panic/timeout.h) \
-  /usr/lib/gcc/arm-linux-gnueabihf/4.9/include/stdarg.h \
+  /usr/lib/gcc/arm-linux-gnueabihf/5/include/stdarg.h \
   include/linux/linkage.h \
   include/linux/stringify.h \
   include/linux/export.h \
     $(wildcard include/config/have/underscore/symbol/prefix.h) \
     $(wildcard include/config/modversions.h) \
+    $(wildcard include/config/trim/unused/ksyms.h) \
   arch/arm/include/asm/linkage.h \
   include/linux/bitops.h \
   arch/arm/include/asm/bitops.h \
@@ -93,8 +95,8 @@ deps_/home/pi/mt7601u/src/os/linux/mt7601Uap.mod.o := \
     $(wildcard include/config/cpu/xsc3.h) \
     $(wildcard include/config/cpu/fa526.h) \
     $(wildcard include/config/arm/heavy/mb.h) \
-    $(wildcard include/config/arch/has/barriers.h) \
     $(wildcard include/config/arm/dma/mem/bufferable.h) \
+  include/asm-generic/barrier.h \
   include/asm-generic/bitops/non-atomic.h \
   include/asm-generic/bitops/fls64.h \
   include/asm-generic/bitops/sched.h \
@@ -103,7 +105,7 @@ deps_/home/pi/mt7601u/src/os/linux/mt7601Uap.mod.o := \
   include/asm-generic/bitops/const_hweight.h \
   include/asm-generic/bitops/lock.h \
   include/asm-generic/bitops/le.h \
-  arch/arm/include/uapi/asm/byteorder.h \
+  include/asm/byteorder.h \
   include/linux/byteorder/little_endian.h \
   include/uapi/linux/byteorder/little_endian.h \
   include/linux/swab.h \
@@ -118,42 +120,24 @@ deps_/home/pi/mt7601u/src/os/linux/mt7601Uap.mod.o := \
   include/linux/printk.h \
     $(wildcard include/config/message/loglevel/default.h) \
     $(wildcard include/config/early/printk.h) \
+    $(wildcard include/config/printk/nmi.h) \
     $(wildcard include/config/printk.h) \
     $(wildcard include/config/dynamic/debug.h) \
   include/linux/init.h \
-    $(wildcard include/config/broken/rodata.h) \
-    $(wildcard include/config/lto.h) \
+    $(wildcard include/config/debug/rodata.h) \
   include/linux/kern_levels.h \
   include/linux/cache.h \
     $(wildcard include/config/arch/has/cache/line/size.h) \
   include/uapi/linux/kernel.h \
-  include/uapi/linux/sysinfo.h \
+  include/linux/sysinfo.h \
   arch/arm/include/asm/cache.h \
     $(wildcard include/config/arm/l1/cache/shift.h) \
     $(wildcard include/config/aeabi.h) \
-  include/linux/dynamic_debug.h \
-  include/linux/string.h \
-    $(wildcard include/config/binary/printf.h) \
-  include/uapi/linux/string.h \
-  arch/arm/include/asm/string.h \
-    $(wildcard include/config/mach/bcm2708.h) \
-  include/linux/errno.h \
-  include/uapi/linux/errno.h \
-  arch/arm/include/generated/asm/errno.h \
-  include/uapi/asm-generic/errno.h \
-  include/uapi/asm-generic/errno-base.h \
   arch/arm/include/asm/div64.h \
   arch/arm/include/asm/compiler.h \
-  arch/arm/include/asm/bug.h \
-    $(wildcard include/config/bug.h) \
-    $(wildcard include/config/debug/bugverbose.h) \
-    $(wildcard include/config/arm/lpae.h) \
-  arch/arm/include/asm/opcodes.h \
-    $(wildcard include/config/cpu/endian/be32.h) \
-  include/asm-generic/bug.h \
-    $(wildcard include/config/generic/bug/relative/pointers.h) \
+  include/asm-generic/div64.h \
   include/linux/stat.h \
-  arch/arm/include/uapi/asm/stat.h \
+  include/asm/stat.h \
   include/uapi/linux/stat.h \
   include/linux/time.h \
     $(wildcard include/config/arch/uses/gettimeoffset.h) \
@@ -170,9 +154,20 @@ deps_/home/pi/mt7601u/src/os/linux/mt7601Uap.mod.o := \
   arch/arm/include/generated/asm/preempt.h \
   include/asm-generic/preempt.h \
   include/linux/thread_info.h \
+    $(wildcard include/config/thread/info/in/task.h) \
     $(wildcard include/config/compat.h) \
     $(wildcard include/config/debug/stack/usage.h) \
+    $(wildcard include/config/have/arch/within/stack/frames.h) \
+    $(wildcard include/config/hardened/usercopy.h) \
   include/linux/bug.h \
+  arch/arm/include/asm/bug.h \
+    $(wildcard include/config/debug/bugverbose.h) \
+    $(wildcard include/config/arm/lpae.h) \
+  arch/arm/include/asm/opcodes.h \
+    $(wildcard include/config/cpu/endian/be32.h) \
+  include/asm-generic/bug.h \
+    $(wildcard include/config/bug.h) \
+    $(wildcard include/config/generic/bug/relative/pointers.h) \
   arch/arm/include/asm/thread_info.h \
     $(wildcard include/config/crunch.h) \
     $(wildcard include/config/arm/thumbee.h) \
@@ -200,15 +195,15 @@ deps_/home/pi/mt7601u/src/os/linux/mt7601Uap.mod.o := \
     $(wildcard include/config/have/tcm.h) \
     $(wildcard include/config/arm/patch/phys/virt.h) \
     $(wildcard include/config/phys/offset.h) \
-    $(wildcard include/config/virt/to/bus.h) \
+    $(wildcard include/config/xip/kernel.h) \
+    $(wildcard include/config/xip/phys/addr.h) \
   include/linux/sizes.h \
-  arch/arm/mach-bcm2709/include/mach/memory.h \
-    $(wildcard include/config/bcm2708/nol2cache.h) \
   include/asm-generic/memory_model.h \
     $(wildcard include/config/flatmem.h) \
     $(wildcard include/config/discontigmem.h) \
     $(wildcard include/config/sparsemem/vmemmap.h) \
     $(wildcard include/config/sparsemem.h) \
+  include/linux/pfn.h \
   include/asm-generic/getorder.h \
   include/linux/bottom_half.h \
   include/linux/spinlock_types.h \
@@ -276,24 +271,27 @@ deps_/home/pi/mt7601u/src/os/linux/mt7601Uap.mod.o := \
   include/linux/gfp.h \
     $(wildcard include/config/zone/dma.h) \
     $(wildcard include/config/zone/dma32.h) \
+    $(wildcard include/config/zone/device.h) \
     $(wildcard include/config/numa.h) \
-    $(wildcard include/config/deferred/struct/page/init.h) \
     $(wildcard include/config/pm/sleep.h) \
+    $(wildcard include/config/memory/isolation.h) \
+    $(wildcard include/config/compaction.h) \
     $(wildcard include/config/cma.h) \
   include/linux/mmdebug.h \
     $(wildcard include/config/debug/vm.h) \
     $(wildcard include/config/debug/virtual.h) \
+    $(wildcard include/config/debug/vm/pgflags.h) \
   include/linux/mmzone.h \
     $(wildcard include/config/force/max/zoneorder.h) \
-    $(wildcard include/config/memory/isolation.h) \
+    $(wildcard include/config/zsmalloc.h) \
     $(wildcard include/config/memcg.h) \
-    $(wildcard include/config/zone/device.h) \
     $(wildcard include/config/memory/hotplug.h) \
-    $(wildcard include/config/compaction.h) \
     $(wildcard include/config/flat/node/mem/map.h) \
     $(wildcard include/config/page/extension.h) \
     $(wildcard include/config/no/bootmem.h) \
     $(wildcard include/config/numa/balancing.h) \
+    $(wildcard include/config/deferred/struct/page/init.h) \
+    $(wildcard include/config/transparent/hugepage.h) \
     $(wildcard include/config/have/memory/present.h) \
     $(wildcard include/config/have/memoryless/nodes.h) \
     $(wildcard include/config/need/node/memmap/size.h) \
@@ -315,6 +313,11 @@ deps_/home/pi/mt7601u/src/os/linux/mt7601Uap.mod.o := \
   include/linux/nodemask.h \
     $(wildcard include/config/movable/node.h) \
   include/linux/bitmap.h \
+    $(wildcard include/config/s390.h) \
+  include/linux/string.h \
+    $(wildcard include/config/binary/printf.h) \
+  include/uapi/linux/string.h \
+  arch/arm/include/asm/string.h \
   include/linux/pageblock-flags.h \
     $(wildcard include/config/hugetlb/page.h) \
     $(wildcard include/config/hugetlb/page/size/variable.h) \
@@ -325,6 +328,11 @@ deps_/home/pi/mt7601u/src/os/linux/mt7601Uap.mod.o := \
     $(wildcard include/config/have/arch/nodedata/extension.h) \
     $(wildcard include/config/have/bootmem/info/node.h) \
   include/linux/notifier.h \
+  include/linux/errno.h \
+  include/uapi/linux/errno.h \
+  arch/arm/include/generated/asm/errno.h \
+  include/asm-generic/errno.h \
+  include/asm-generic/errno-base.h \
   include/linux/mutex.h \
     $(wildcard include/config/debug/mutexes.h) \
     $(wildcard include/config/mutex/spin/on/owner.h) \
@@ -332,6 +340,7 @@ deps_/home/pi/mt7601u/src/os/linux/mt7601Uap.mod.o := \
   include/linux/rwsem.h \
     $(wildcard include/config/rwsem/spin/on/owner.h) \
     $(wildcard include/config/rwsem/generic/spinlock.h) \
+  include/linux/err.h \
   arch/arm/include/generated/asm/rwsem.h \
   include/asm-generic/rwsem.h \
   include/linux/srcu.h \
@@ -361,7 +370,7 @@ deps_/home/pi/mt7601u/src/os/linux/mt7601Uap.mod.o := \
   include/linux/jiffies.h \
   include/linux/timex.h \
   include/uapi/linux/timex.h \
-  include/uapi/linux/param.h \
+  include/linux/param.h \
   arch/arm/include/generated/asm/param.h \
   include/asm-generic/param.h \
     $(wildcard include/config/hz.h) \
@@ -373,6 +382,7 @@ deps_/home/pi/mt7601u/src/os/linux/mt7601Uap.mod.o := \
   include/linux/workqueue.h \
     $(wildcard include/config/debug/objects/work.h) \
     $(wildcard include/config/freezer.h) \
+    $(wildcard include/config/wq/watchdog.h) \
   include/linux/timer.h \
     $(wildcard include/config/timer/stats.h) \
     $(wildcard include/config/debug/objects/timers.h) \
@@ -393,7 +403,6 @@ deps_/home/pi/mt7601u/src/os/linux/mt7601Uap.mod.o := \
     $(wildcard include/config/need/per/cpu/embed/first/chunk.h) \
     $(wildcard include/config/need/per/cpu/page/first/chunk.h) \
     $(wildcard include/config/have/setup/per/cpu/area.h) \
-  include/linux/pfn.h \
   arch/arm/include/asm/percpu.h \
   include/asm-generic/percpu.h \
   include/linux/percpu-defs.h \
@@ -409,14 +418,13 @@ deps_/home/pi/mt7601u/src/os/linux/mt7601Uap.mod.o := \
   arch/arm/include/asm/vdso_datapage.h \
   arch/arm/include/asm/user.h \
   include/uapi/linux/elf.h \
-  include/uapi/linux/elf-em.h \
+  include/linux/elf-em.h \
   include/linux/kobject.h \
     $(wildcard include/config/uevent/helper.h) \
     $(wildcard include/config/debug/kobject/release.h) \
   include/linux/sysfs.h \
   include/linux/kernfs.h \
     $(wildcard include/config/kernfs.h) \
-  include/linux/err.h \
   include/linux/idr.h \
   include/linux/kobject_ns.h \
   include/linux/kref.h \
@@ -426,7 +434,7 @@ deps_/home/pi/mt7601u/src/os/linux/mt7601Uap.mod.o := \
     $(wildcard include/config/ppc64.h) \
   include/linux/jump_label.h \
     $(wildcard include/config/jump/label.h) \
-  arch/arm/include/asm/jump_label.h \
+  include/linux/extable.h \
   include/linux/rbtree_latch.h \
   arch/arm/include/asm/module.h \
     $(wildcard include/config/arm/unwind.h) \
@@ -438,6 +446,6 @@ deps_/home/pi/mt7601u/src/os/linux/mt7601Uap.mod.o := \
   include/linux/vermagic.h \
   include/generated/utsrelease.h \
 
-/home/pi/mt7601u/src/os/linux/mt7601Uap.mod.o: $(deps_/home/pi/mt7601u/src/os/linux/mt7601Uap.mod.o)
+/home/odroid/repos/MT7601u/src/os/linux/mt7601Uap.mod.o: $(deps_/home/odroid/repos/MT7601u/src/os/linux/mt7601Uap.mod.o)
 
-$(deps_/home/pi/mt7601u/src/os/linux/mt7601Uap.mod.o):
+$(deps_/home/odroid/repos/MT7601u/src/os/linux/mt7601Uap.mod.o):
