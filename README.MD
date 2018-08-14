@@ -1,3 +1,6 @@
+This fork was made to make this library useable on ODROID-XU4. Original repository had errors while compiling. This repository also contains built modules for Ubuntu-16.04.3 running on Odroid-XU4.
+
+
 ABSTRACT FOR ACCESS POINT…
 
 Hello guys. I’m Murat. First I want to say, my english is not good. This example will teach you for using unsupported Mediatek MT7601u based wireless chipsets as Access Point mode in Linux systems. So you can use this wireless antenna in your embedded or desktop based Linux robotic projects or sharing your internet connection(as like hotspot). No hardware and programming skills required. We will not use hostapd driver. Just follow what I write.
